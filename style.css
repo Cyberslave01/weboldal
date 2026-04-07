@@ -322,6 +322,7 @@ section {
 .hero-brand {
   display: flex;
   align-items: center;
+  gap: 12px;
   margin-bottom: 18px;
   margin-top: -15px;
 }
@@ -340,8 +341,8 @@ section {
 }
 
 .brand-text {
-  font-size: 1rem;       
+  font-size: 1rem;
   font-weight: 700;
-  color: #1f1f1f;        
+  color: #1f1f1f;
   letter-spacing: 0.8px;
 }
