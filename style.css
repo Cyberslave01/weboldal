@@ -325,6 +325,8 @@ section {
   gap: 12px;
   margin-bottom: 18px;
   margin-top: -70px;
+
+  background: red;
 }
 
 .logo {
