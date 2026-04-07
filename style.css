@@ -23,9 +23,8 @@ section {
 .hero,
 .location,
 .services,
-.reviews,
 .contact {
-  padding: 80px 24px;
+  padding: 56px 24px;
 }
 
 .hero,
@@ -38,25 +37,31 @@ section {
 }
 
 .hero {
-  min-height: 85vh;
+  min-height: auto;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   align-items: center;
   gap: 48px;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .hero-text h1 {
   font-size: 3.2rem;
-  line-height: 1.05;
-  margin-bottom: 18px;
-  font-family: Georgia, serif;
+  line-height: 1.15;
+  margin-bottom: 22px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .hero-text h2 {
   font-size: 1.5rem;
+  line-height: 1.35;
   font-weight: 600;
   margin-bottom: 18px;
   color: #3a3a3a;
+  font-family: Arial, sans-serif;
 }
 
 .hero-text p {
@@ -97,15 +102,23 @@ section {
 .location-title {
   text-align: center;
   font-size: 2rem;
+  line-height: 1.25;
   margin-bottom: 42px;
-  font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
 }
 
 .location-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 36px;
-  align-items: stretch;
+  align-items: center;
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .location-text p {
@@ -140,10 +153,12 @@ section {
 
 .services-inner h2 {
   font-size: 2.4rem;
-  font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
   margin-bottom: 40px;
-  max-width: 300px;
-  line-height: 1.1;
+  max-width: none;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .service-grid {
@@ -163,7 +178,8 @@ section {
 .card h3 {
   margin-bottom: 14px;
   font-size: 1.2rem;
-  font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
 }
 
 .card p {
@@ -222,7 +238,8 @@ section {
 
 .contact-inner h2 {
   font-size: 2rem;
-  font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
   margin-bottom: 26px;
 }
 
